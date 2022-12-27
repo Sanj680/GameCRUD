@@ -1,5 +1,5 @@
 
-import { GameForm, GameList, Navbar } from "./components";
+import { GameForm, GameList, Navbar,LoginForm} from "./components";
 
 import { Route, Routes } from "react-router-dom";
 
@@ -12,6 +12,7 @@ export const App = () => {
           <Route path="/" element={<GameList />} />
           <Route path="/create-game" element={<GameForm />} />
           <Route path="/edit-game/:id" element={<GameForm/>} />
+          <Route path="/login" element={<LoginForm/>} />
         </Routes>
       </div>
     </div>

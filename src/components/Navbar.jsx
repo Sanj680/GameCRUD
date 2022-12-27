@@ -22,6 +22,13 @@ export const Navbar = () => {
                         >
                           Create new Game
                         </button>
+
+                        <button
+                            className="btn btn-outline-secondary my-2 my-sm-0"
+                            onClick={() => navigate("/login")}
+                        >
+                          Login
+                        </button>
                     </div>
                 </div>
             </nav>
